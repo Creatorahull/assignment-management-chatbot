@@ -84,12 +84,4 @@ Add to crontab (Linux/Mac) for 8 AM daily reminder:
 5. Everything is saved to SQLite
 6. The scheduler checks deadlines daily and tells you what to study today
 
----
 
-## 🛠️ Troubleshooting
-
-**"No API key"** → Make sure `.env` has `ANTHROPIC_API_KEY=sk-ant-...`
-
-**PDF not extracting** → Some scanned PDFs need OCR. Try copy-pasting the text instead.
-
-**Port already in use** → Run with `streamlit run app.py --server.port 8502`
